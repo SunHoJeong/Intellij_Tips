@@ -2,6 +2,8 @@
 
 
 
+
+
 ## Live Templates
 
 이 주제는 개발자로서 조금이라도 생산성을 높힐 수 있는 방법이 무엇이 있을까? 라는 생각에서 시작하게 되었습니다.
@@ -11,6 +13,8 @@
 좀 더 간편하고, 좀 더 빠르게 사용할 수 있다면 어떨까요? Intellij 에는  Live Templates이라는 편리한 기능이 있습니다
 
 
+
+----------
 
 ### 다양한 Live Templates 소개
 
@@ -52,82 +56,113 @@
 
 
 
+-----------------
 
-
-### Custom Live Template 만들기
-
-![스크린샷 2022-09-25 오전 3.00.02](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.00.02.png)
-
-지금까지 확인할 수 있었던 template들이 group 별로 존재하는 것을 확인할 수 있습니다
-
-C, JAVA, HTTP Request, MAVEN, SQL .. 다양한 group이 존재합니다
+### Custom Live Template 만들기(1)
 
 
 
-![스크린샷 2022-09-25 오전 3.00.02](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.03.14.png)
+- Settings - Editor - Live Templates 
 
-JAVA  group에 새로운 template을 만들어 보도록 하겠습니다
+  ![live_templates_preference](Images/live_templates_preference.png)
 
-template 추가는 오른쪽에 + 버튼을 눌러서 할 수 있습니다
+​	지금까지 확인할 수 있었던 template들이 group 별로 존재하는 것을 확인할 수 있습니다
+
+​	C, JAVA, HTTP Request, MAVEN, SQL .. 다양한 group이 존재합니다
 
 
 
-![스크린샷 2022-09-25 오전 3.08.26](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.08.26.png)
+- 우측에 Add 버튼을 클릭!
+  ![add_live_templates](Images/add_live_templates.png)
 
-- Abbreviation :  template 약어
+​	JAVA  group에 새로운 template을 만들어 보도록 하겠습니다
 
-- Description : template 설명
+​	template 추가는 오른쪽에 + 버튼을 눌러서 할 수 있습니다
 
-- Template text
 
-  - $METHOD_NAME$ : 메서드 이름
-  - $ARGS$ : arguments
-  - $END$ : template을 추가했을 때 커서가 오는 위치
 
-  
+- Custom Live Template 생성
 
-<img src="/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.14.28.png" alt="스크린샷 2022-09-25 오전 3.14.28" style="zoom:50%;" />
+  ![crate_live_templates](Images/crate_live_templates.png)
+
+  - Abbreviation :  template 약어
+  - Description : template 설명
+  - Template text
+    - $METHOD_NAME$ : 메서드 이름
+    - $ARGS$ : arguments
+    - $END$ : template을 추가했을 때 커서가 오는 위치
+
+
+
+- Edit Variables
+
+  ![create_live_templates_edit_variables](Images/create_live_templates_edit_variables.png)
+
+​		default vaule에 기본 메서드 명을 설정해줄 수 있습니다
+
+
+
+- 사용할 곳 정의 : Java - Declaration
+
+  <img src="Images/create_live_templates_group.png" alt="create_live_templates_context" style="zoom:67%;" />
 
 JAVA group에 Declaration을 선택해주고 apply를 눌러주면 완료!
 
 
 
-![스크린샷 2022-09-25 오전 3.32.24](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.32.24.png)
-
-![스크린샷 2022-09-25 오전 3.32.32](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.32.32.png)
-
-위에서 생성한 prvm 약어에 해당하는 template을 확인할 수 있습니다
+- custom live template 확인![custom_live_template_prvm](Images/custom_live_template_prvm.png)
 
 
+  ![create_prvm](Images/create_prvm.png)
+
+위에서 설정한 prvm template 약어와 기본으로 설정된 메서드 이름을 확인할 수 있습니다
+
+--------
+
+
+
+### Custom Live Template 만들기(2)
 
 더 나아가서 junit test에서도 활용해보도록 하겠습니다
 
-![스크린샷 2022-09-25 오전 3.35.47](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.35.47.png)
+- 가장 먼저 test용 코드를 작성하고, template으로 작성할 부분을 드래그 합니다
+  ![junit_tdd_temaplte](Images/junit_tdd_temaplte.png)
 
-test용 template 코드를 작성하고, template으로 작성할 부분을 드래그 합니다
 
-이후 Code메뉴 - Save as Live Template 을 눌러줍니다
 
-![스크린샷 2022-09-25 오전 3.47.37](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.47.37.png)
+- 이후 Code - Save as Live Template 을 눌러줍니다
+  ![create_junit_tdd_template](Images/create_junit_tdd_template.png)
+  - Abbrevation
+  - Dscription
+  - DISPLAY_NAME
+  - METHOD_NAME
+  - BODY
+  - 사용할 곳 설정
 
-![스크린샷 2022-09-25 오전 3.50.31](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.50.31.png)
+
 
 - Edit Template Variables
+  ![create_jun it_tdd_template_edit_variables](Images/create_jun it_tdd_template_edit_variables.png)
+  - DISPLAY_NAME : default value로 "Display name for my test" 작성
+  - METHOD_NAME : Expression에 camelCase() 함수 사용, 파라미터로 DISPLAY_NAME을 전달
+  - BODY : Assertion.fail 메서드 작성
 
-  -  DISPLAY_NAME에  Default value 값으로 string  값을 넣어 줌
-  - METHOD_NAME에 Expression에 camelCase(DISPLAY_NAME)을 넣어주어
-    DISPLAY_NAME이 camel case로 METHOD_NAME이 됨
-  - BODY에는 Assertions.fail 함수를 넣어 줌
+​		
 
-  
+- 생성된 live template  확인
+  ![create_junit_tdd](Images/create_junit_tdd.png)
 
-![스크린샷 2022-09-25 오전 3.56.40](/Users/snow/Screenshots/스크린샷 2022-09-25 오전 3.56.40.png)
+METHOD_NAME에 DISPLAY_NAME을 camel case로 전달해주었기 때문에, 
 
-DISPLAY_NAME을 수정하면 METHOD_NAME도 같이 수정된다!
+custom live template을 생성하고 DisplayName을 수정해주면 메서드 이름도 같이 변경됩니다
 
-
+-----------
 
 
 
-## Debugging Stream
+
+
+
+
+
 
