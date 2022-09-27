@@ -18,7 +18,7 @@
 
   - ![스크린샷 2022-09-25 오전 2.13.44](Images/psvf.png)
 
-  - ![psvf2](/Users/snow/IdeaProjects/Intellij_Tips/Images/psvf2.png)
+  - ![psvf2](Images/psvf2.png)
 
 ​				psvm을 타이핑 후 탭 혹은 엔터를 누르게 되면 약속된 템플릿이 자동으로 완성됩니다
 
@@ -26,7 +26,7 @@
 
 - fori : iterlation loop 생성
 - iter : iterable 또는 array iterate
-  - ![fori_iter](/Users/snow/IdeaProjects/Intellij_Tips/Images/fori_iter.png)
+  - ![fori_iter](Images/fori_iter.png)
 
 
 
@@ -34,7 +34,7 @@
 - sout : System.out.println()
 - soutm : 현재 클래스와 메서드 이름을 출력
 - soutv : 선택한 변수를 출력
-  - ![sout_soutm_soutv](/Users/snow/IdeaProjects/Intellij_Tips/Images/sout_soutm_soutv.png)
+  - ![sout_soutm_soutv](Images/sout_soutm_soutv.png)
 
 
 
@@ -42,13 +42,13 @@
 
 - ifn : if null
 - inn : if not null
-  - ![ifn_inn](/Users/snow/IdeaProjects/Intellij_Tips/Images/ifn_inn.png)
+  - ![ifn_inn](Images/ifn_inn.png)
 
 
 
 
 - 더 많은 templates : control + J 단축키를 누르게 되면 더 다양한 templates을 확인할 수 있습니다
-  - ![control_j](/Users/snow/IdeaProjects/Intellij_Tips/Images/control_j.png)
+  - ![control_j](Images/control_j.png)
 
 
 
