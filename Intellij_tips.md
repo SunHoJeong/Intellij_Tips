@@ -184,26 +184,26 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
 
 - new
-  <img src="Images/postfix_new.png" alt="postfix_new" style="zoom:67%;" />
+  <img src="Images/postfix_new.png" alt="postfix_new" style="zoom: 50%;" />
 
 
 
 - nn
-  <img src="Images/postfix_nn.png" alt="postfix_nn" style="zoom:67%;" />
+  <img src="Images/postfix_nn.png" alt="postfix_nn" style="zoom: 50%;" />
 
 
 
-- opt![postfix_opt](Images/postfix_opt.png)
+- opt<img src="Images/postfix_opt.png" alt="postfix_opt" style="zoom:50%;" />
 
 
 
 - try
-  ![postfix_try](Images/postfix_try.png)
+  <img src="Images/postfix_try.png" alt="postfix_try" style="zoom: 50%;" />
 
 
 
 - 더 많은 postfix 목록
-  ![postfix_list](Images/postfix_list.png)
+  <img src="Images/postfix_list.png" alt="postfix_list" style="zoom: 33%;" />
 
 
 
