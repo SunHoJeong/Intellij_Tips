@@ -1,12 +1,10 @@
-# Intellij와 친해지기
+# Intellij tips
 
-
+이 주제는 개발자로서 조금이라도 생산성을 높힐 수 있는 방법이 무엇이 있을까? 라는 생각에서 시작하게 되었습니다.
 
 
 
 ## Live Templates
-
-이 주제는 개발자로서 조금이라도 생산성을 높힐 수 있는 방법이 무엇이 있을까? 라는 생각에서 시작하게 되었습니다.
 
 개발자들은 반복적인 작업을 싫어합니다. 우리가 자주 사용하거나 작성하기 복잡한 내용을 템플릿화하여
 
@@ -193,7 +191,8 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
 
 
-- opt<img src="Images/postfix_opt.png" alt="postfix_opt" style="zoom:50%;" />
+- opt
+  <img src="Images/postfix_opt.png" alt="postfix_opt" style="zoom:50%;" />
 
 
 
@@ -203,13 +202,42 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
 
 - 더 많은 postfix 목록
-  <img src="Images/postfix_list.png" alt="postfix_list" style="zoom: 33%;" />
+  <img src="Images/postfix_list.png" alt="postfix_list" style="zoom: 50%;" />
 
 
 
+--------------
 
 
 
+## Navigation in Intellij
+
+
+
+### Find Recent Files
+
+- 최근에 열어보거나 수정한 파일들의 목록을 확인할 수 있습니다
+- split right : 해당 파일을 shift + enter 로 열게 되면 오른쪽에 분할되어 창이 열립니다
+- back space 또는 delete를 누르면 목록에서 파일이 삭제됩니다
+
+![find_recent_files](Images/find_recent_files.png)
+
+- Recent Files 목록에서 검색
+  ![find_recent_files_search](Images/find_recent_files_search.png)
+
+### Recent Locations
+
+- 최근에 열어보거나 수정한 파일들의 디테일한 위치를 확인할 수 있습니다
+- back space 또는 delete를 누르면 목록에서 파일이 삭제됩니다
+
+![recent_locations](Images/recent_locations.png)
+
+- Recent Locations 목록에서 수정된 부분만 보기
+
+  ![recent_locations_chaged](Images/recent_locations_chaged.png)
+
+- Recent Locations 목록에서 검색
+  ![recent_locations_search](Images/recent_locations_search.png)
 
 
 
