@@ -249,7 +249,7 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
   - mnemonic bookmark : Ctrl + F11
 
-    - 니모닉 북마크는 숫자(0~9) 또는 문자 (A~Z)로 책갈피 추가 가능
+    - 니모닉 북마크는 숫자(0-9) 또는 문자 (A-Z)로 책갈피 추가 가능
 
     <img src="Images/mnemonic_bookmark.png" alt="mnemonic_bookmark" style="zoom:67%;" />
 
@@ -259,6 +259,10 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
   ![bookmarks](Images/bookmarks.png)
 
+​		
+
+- mnemonic bookmark로 이동
+  - Ctrl + mnemonic bookmark
 
 
 
@@ -278,6 +282,7 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 - https://www.jetbrains.com/help/idea/using-live-templates.html
 - https://www.jetbrains.com/help/idea/auto-completing-code.html#postfix_completion
 - https://www.jetbrains.com/help/idea/navigating-through-the-source-code.html
+- Custom Postfix Templates plugin github : https://github.com/xylo/intellij-postfix-templates
 
 
 
