@@ -227,7 +227,7 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
 ### Recent Locations
 
-- 최근에 열어보거나 수정한 파일들의 디테일한 위치를 확인할 수 있습니다
+- 최근에 열어보거나 수정한 파일들의 디테일한 코드 및 위치를 확인할 수 있습니다
 - back space 또는 delete를 누르면 목록에서 파일이 삭제됩니다
 
 ![recent_locations](Images/recent_locations.png)
@@ -238,6 +238,58 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
 - Recent Locations 목록에서 검색
   ![recent_locations_search](Images/recent_locations_search.png)
+
+### Bookmarks
+
+- bookmark 추가
+
+  - anonymous bookmark : F11
+
+    - 식별자가 없으며 원하는 만큼 추가 가능
+
+  - mnemonic bookmark : Ctrl + F11
+
+    - 니모닉 북마크는 숫자(0~9) 또는 문자 (A~Z)로 책갈피 추가 가능
+
+    <img src="Images/mnemonic_bookmark.png" alt="mnemonic_bookmark" style="zoom:67%;" />
+
+  
+
+- bookmark 리스트 : Alt + 2
+
+  ![bookmarks](Images/bookmarks.png)
+
+
+
+
+- bookmark popup : Shift + F11
+  ![bookmark_popup](Images/bookmark_popup.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
