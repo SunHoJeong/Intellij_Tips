@@ -269,7 +269,15 @@ Postfix Completion은 .(dot) 뒤에 오는 접미사을 통해 기존에 정의�
 
 
 
+----------------
 
+
+
+### References
+
+- https://www.jetbrains.com/help/idea/using-live-templates.html
+- https://www.jetbrains.com/help/idea/auto-completing-code.html#postfix_completion
+- https://www.jetbrains.com/help/idea/navigating-through-the-source-code.html
 
 
 
